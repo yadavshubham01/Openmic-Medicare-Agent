@@ -1,0 +1,996 @@
+{
+  "patients": {
+    "MED-1001": {
+      "id": "MED-1001",
+      "name": "Shubham yadav",
+      "dob": "1987-03-12",
+      "allergies": [
+        "Penicillin"
+      ],
+      "lastVisit": "2025-06-10",
+      "notes": "Hypertension; last BP 140/90."
+    },
+    "MED-2002": {
+      "id": "MED-2002",
+      "name": "Rahul Sharma",
+      "dob": "1992-11-04",
+      "allergies": [],
+      "lastVisit": "2025-02-21",
+      "notes": "Follow-up for knee pain."
+    }
+  },
+  "calls": [
+    {
+      "receivedAt": "2025-09-18T11:21:55.073Z",
+      "event": "end-of-call-report",
+      "summary": "The caller provided a Medical ID (MED-1001), but the system could not locate a patient with that ID. The assistant explained that records can only be searched by Medical ID, even though the caller offered a full name (Sugam Yado) for lookup. The assistant suggested contacting support for further help if needed.",
+      "transcript": [
+        [
+          "assistant",
+          "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+        ],
+        [
+          "user",
+          "Sure. Why not?"
+        ],
+        [
+          "assistant",
+          "Thank you! Are you the patient I’m speaking with today? If so, could you please provide your Medical ID? It should look like MED-XXXX."
+        ],
+        [
+          "user",
+          "Right. Zero zero one."
+        ],
+        [
+          "assistant",
+          "Thank you for that. Just to confirm, your Medical ID should be in the format MED-XXXX, for example, MED-0001. Could you please provide the full Medical ID in that format?"
+        ],
+        [
+          "user",
+          "Med one zero zero one"
+        ],
+        [
+          "assistant",
+          "Thank you for providing that. Just to confirm, your Medical ID is MED-1001. Is that correct?"
+        ],
+        [
+          "user",
+          "Yes."
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "assistant",
+          "I'm sorry, but I couldn't find a patient with the Medical ID MED-1001. Could you please double-check your Medical ID or let me know if you’d like to provide another one? If you need help, I can also look you up by your full name and date of birth."
+        ],
+        [
+          "user",
+          "Check the name Sugam Yado."
+        ],
+        [
+          "assistant",
+          "Thank you for providing the name. Unfortunately, I can only look up patient records using a valid Medical ID. If you have your Medical ID, please provide it in the format MED-XXXX. If you’re unsure, you may contact our support team for further"
+        ]
+      ],
+      "raw": {
+        "type": "end-of-call-report",
+        "sessionId": "cmfpbk6j6000145hm231q5jf7",
+        "toPhoneNumber": "Web-Call-1157",
+        "fromPhoneNumber": "Web-Client-1157",
+        "callType": "webcall",
+        "disconnectionReason": "user_ended_call",
+        "direction": "inbound",
+        "createdAt": "2025-09-18T11:20:16.914Z",
+        "endedAt": "2025-09-18T11:21:54.056Z",
+        "transcript": [
+          [
+            "assistant",
+            "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+          ],
+          [
+            "user",
+            "Sure. Why not?"
+          ],
+          [
+            "assistant",
+            "Thank you! Are you the patient I’m speaking with today? If so, could you please provide your Medical ID? It should look like MED-XXXX."
+          ],
+          [
+            "user",
+            "Right. Zero zero one."
+          ],
+          [
+            "assistant",
+            "Thank you for that. Just to confirm, your Medical ID should be in the format MED-XXXX, for example, MED-0001. Could you please provide the full Medical ID in that format?"
+          ],
+          [
+            "user",
+            "Med one zero zero one"
+          ],
+          [
+            "assistant",
+            "Thank you for providing that. Just to confirm, your Medical ID is MED-1001. Is that correct?"
+          ],
+          [
+            "user",
+            "Yes."
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "assistant",
+            "I'm sorry, but I couldn't find a patient with the Medical ID MED-1001. Could you please double-check your Medical ID or let me know if you’d like to provide another one? If you need help, I can also look you up by your full name and date of birth."
+          ],
+          [
+            "user",
+            "Check the name Sugam Yado."
+          ],
+          [
+            "assistant",
+            "Thank you for providing the name. Unfortunately, I can only look up patient records using a valid Medical ID. If you have your Medical ID, please provide it in the format MED-XXXX. If you’re unsure, you may contact our support team for further"
+          ]
+        ],
+        "summary": "The caller provided a Medical ID (MED-1001), but the system could not locate a patient with that ID. The assistant explained that records can only be searched by Medical ID, even though the caller offered a full name (Sugam Yado) for lookup. The assistant suggested contacting support for further help if needed.",
+        "isSuccessful": true
+      }
+    },
+    {
+      "receivedAt": "2025-09-18T12:22:25.796Z",
+      "event": "end-of-call-report",
+      "summary": "The MedIntake agent attempted to collect the patient's Medical ID or full name and asked for the ID in the format MED-XXXX. The user provided a partial ID (\"1001\") and there were repeated back-and-forth clarifications about formatting, with the agent requesting the full name/formal details. No final ID or next steps were captured in this brief exchange.",
+      "transcript": [
+        [
+          "assistant",
+          "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+        ],
+        [
+          "user",
+          "Right. One zero zero one."
+        ],
+        [
+          "assistant",
+          "Thank you for providing that. Just to confirm, could you please give me your Medical ID in the format MED-XXXX?"
+        ],
+        [
+          "user",
+          "For a sec."
+        ],
+        [
+          "user",
+          "M e d"
+        ],
+        [
+          "assistant",
+          "Thank you. Could you please"
+        ],
+        [
+          "user",
+          "Thank you."
+        ],
+        [
+          "user",
+          "Could you please provide"
+        ],
+        [
+          "assistant",
+          "Of course! Please provide your full"
+        ],
+        [
+          "user",
+          "Course."
+        ],
+        [
+          "user",
+          "Please provide your formal"
+        ],
+        [
+          "assistant",
+          "Thank you for your patience."
+        ],
+        [
+          "user",
+          "Thank you for your patience."
+        ],
+        [
+          "assistant",
+          "You're welcome! Whenever you're"
+        ],
+        [
+          "user",
+          "You're welcome."
+        ],
+        [
+          "user",
+          "Whatever your"
+        ]
+      ],
+      "raw": {
+        "type": "end-of-call-report",
+        "sessionId": "cmfpdqysb001045hmdj1pxiat",
+        "toPhoneNumber": "Web-Call-1157",
+        "fromPhoneNumber": "Web-Client-1157",
+        "callType": "webcall",
+        "disconnectionReason": "user_ended_call",
+        "direction": "inbound",
+        "createdAt": "2025-09-18T12:21:32.699Z",
+        "endedAt": "2025-09-18T12:22:25.735Z",
+        "transcript": [
+          [
+            "assistant",
+            "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+          ],
+          [
+            "user",
+            "Right. One zero zero one."
+          ],
+          [
+            "assistant",
+            "Thank you for providing that. Just to confirm, could you please give me your Medical ID in the format MED-XXXX?"
+          ],
+          [
+            "user",
+            "For a sec."
+          ],
+          [
+            "user",
+            "M e d"
+          ],
+          [
+            "assistant",
+            "Thank you. Could you please"
+          ],
+          [
+            "user",
+            "Thank you."
+          ],
+          [
+            "user",
+            "Could you please provide"
+          ],
+          [
+            "assistant",
+            "Of course! Please provide your full"
+          ],
+          [
+            "user",
+            "Course."
+          ],
+          [
+            "user",
+            "Please provide your formal"
+          ],
+          [
+            "assistant",
+            "Thank you for your patience."
+          ],
+          [
+            "user",
+            "Thank you for your patience."
+          ],
+          [
+            "assistant",
+            "You're welcome! Whenever you're"
+          ],
+          [
+            "user",
+            "You're welcome."
+          ],
+          [
+            "user",
+            "Whatever your"
+          ]
+        ],
+        "summary": "The MedIntake agent attempted to collect the patient's Medical ID or full name and asked for the ID in the format MED-XXXX. The user provided a partial ID (\"1001\") and there were repeated back-and-forth clarifications about formatting, with the agent requesting the full name/formal details. No final ID or next steps were captured in this brief exchange.",
+        "isSuccessful": false
+      }
+    },
+    {
+      "receivedAt": "2025-09-18T12:26:17.467Z",
+      "event": "end-of-call-report",
+      "summary": "The MedIntake agent greeted the caller and asked for their Medical ID or full name to proceed. The caller provided their Medical ID by speaking the digits. The agent acknowledged the provided ID and stated they would assist further.",
+      "transcript": [
+        [
+          "assistant",
+          "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+        ],
+        [
+          "user",
+          "Short"
+        ],
+        [
+          "assistant",
+          "Hello! May I have your"
+        ],
+        [
+          "user",
+          "Hello?"
+        ],
+        [
+          "assistant",
+          "Hello! Thank you for calling."
+        ],
+        [
+          "user",
+          "Hello?"
+        ],
+        [
+          "user",
+          "Thank you for calling."
+        ],
+        [
+          "assistant",
+          "You’re welcome! May I please have your Medical ID (it should look like MED-1234) so I can"
+        ],
+        [
+          "user",
+          "One zero zero one. Nine one zero zero one."
+        ],
+        [
+          "assistant",
+          "Thank you for providing those"
+        ],
+        [
+          "user",
+          "Thank you for providing."
+        ],
+        [
+          "assistant",
+          "You're welcome! To assist you"
+        ],
+        [
+          "user",
+          "You're welcome."
+        ],
+        [
+          "user",
+          "To assist you further,"
+        ],
+        [
+          "assistant",
+          "Thank you! To assist you"
+        ],
+        [
+          "user",
+          "Thank you."
+        ],
+        [
+          "user",
+          "Good assist you further."
+        ]
+      ],
+      "raw": {
+        "type": "end-of-call-report",
+        "sessionId": "cmfpdvxwt001b45hmv6shxa77",
+        "toPhoneNumber": "Web-Call-1157",
+        "fromPhoneNumber": "Web-Client-1157",
+        "callType": "webcall",
+        "disconnectionReason": "user_ended_call",
+        "direction": "inbound",
+        "createdAt": "2025-09-18T12:25:24.845Z",
+        "endedAt": "2025-09-18T12:26:17.641Z",
+        "transcript": [
+          [
+            "assistant",
+            "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+          ],
+          [
+            "user",
+            "Short"
+          ],
+          [
+            "assistant",
+            "Hello! May I have your"
+          ],
+          [
+            "user",
+            "Hello?"
+          ],
+          [
+            "assistant",
+            "Hello! Thank you for calling."
+          ],
+          [
+            "user",
+            "Hello?"
+          ],
+          [
+            "user",
+            "Thank you for calling."
+          ],
+          [
+            "assistant",
+            "You’re welcome! May I please have your Medical ID (it should look like MED-1234) so I can"
+          ],
+          [
+            "user",
+            "One zero zero one. Nine one zero zero one."
+          ],
+          [
+            "assistant",
+            "Thank you for providing those"
+          ],
+          [
+            "user",
+            "Thank you for providing."
+          ],
+          [
+            "assistant",
+            "You're welcome! To assist you"
+          ],
+          [
+            "user",
+            "You're welcome."
+          ],
+          [
+            "user",
+            "To assist you further,"
+          ],
+          [
+            "assistant",
+            "Thank you! To assist you"
+          ],
+          [
+            "user",
+            "Thank you."
+          ],
+          [
+            "user",
+            "Good assist you further."
+          ]
+        ],
+        "summary": "The MedIntake agent greeted the caller and asked for their Medical ID or full name to proceed. The caller provided their Medical ID by speaking the digits. The agent acknowledged the provided ID and stated they would assist further.",
+        "isSuccessful": false
+      }
+    },
+    {
+      "receivedAt": "2025-09-18T12:31:20.491Z",
+      "event": "end-of-call-report",
+      "summary": "The assistant attempted to verify the patient’s identity using a Medical ID (MED-1001). The user confirmed MED-1001, but the assistant could not locate a corresponding patient record and requested a double-check of the ID. The session paused with the need to reverify the identifier or provide alternative information.",
+      "transcript": [
+        [
+          "assistant",
+          "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+        ],
+        [
+          "user",
+          "My medical ID?"
+        ],
+        [
+          "user",
+          "Is med one zero zero one."
+        ],
+        [
+          "assistant",
+          "Thank you for providing your Medical ID. Just to confirm, is your Medical ID MED-1001?"
+        ],
+        [
+          "user",
+          "Yes."
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "assistant",
+          "I'm sorry, but I couldn't find a patient record with the Medical ID MED-1001. Could you please double-check"
+        ]
+      ],
+      "raw": {
+        "type": "end-of-call-report",
+        "sessionId": "cmfpe2ovv001f45hmht3c9ks3",
+        "toPhoneNumber": "Web-Call-1157",
+        "fromPhoneNumber": "Web-Client-1157",
+        "callType": "webcall",
+        "disconnectionReason": "user_ended_call",
+        "direction": "inbound",
+        "createdAt": "2025-09-18T12:30:39.739Z",
+        "endedAt": "2025-09-18T12:31:20.493Z",
+        "transcript": [
+          [
+            "assistant",
+            "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+          ],
+          [
+            "user",
+            "My medical ID?"
+          ],
+          [
+            "user",
+            "Is med one zero zero one."
+          ],
+          [
+            "assistant",
+            "Thank you for providing your Medical ID. Just to confirm, is your Medical ID MED-1001?"
+          ],
+          [
+            "user",
+            "Yes."
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "assistant",
+            "I'm sorry, but I couldn't find a patient record with the Medical ID MED-1001. Could you please double-check"
+          ]
+        ],
+        "summary": "The assistant attempted to verify the patient’s identity using a Medical ID (MED-1001). The user confirmed MED-1001, but the assistant could not locate a corresponding patient record and requested a double-check of the ID. The session paused with the need to reverify the identifier or provide alternative information.",
+        "isSuccessful": true
+      }
+    },
+    {
+      "time": "2025-09-18T12:35:02.794Z",
+      "type": "function_call",
+      "medicalId": "MED-1001",
+      "result": {
+        "id": "MED-1001",
+        "name": "Shubham yadav",
+        "dob": "1987-03-12",
+        "allergies": [
+          "Penicillin"
+        ],
+        "lastVisit": "2025-06-10",
+        "notes": "Hypertension; last BP 140/90."
+      },
+      "requestBody": {
+        "medicalId": "MED-1001"
+      }
+    },
+    {
+      "receivedAt": "2025-09-18T12:36:32.124Z",
+      "event": "end-of-call-report",
+      "summary": "The call identified Shubham Yadav in MedIntake with an allergy to Penicillin, last visit on June 10, 2025, and a blood pressure of 140/90 noted alongside hypertension. The caller asked to add or update notes about the blood pressure; the assistant explained they cannot directly edit records but will flag the request for a human clinician to review and update. The agent also offered to help with scheduling or other needs.",
+      "transcript": [
+        [
+          "assistant",
+          "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+        ],
+        [
+          "user",
+          "Med one zero zero one."
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "assistant",
+          "Thank you. I have found your record, Shubham Yadav.\n\nJust to confirm:\n- Your recorded allergy is to Penicillin.\n- Your last visit was on June 10, 2025.\n- Notes mention hypertension, with your last blood pressure reading at 140/90.\n\nIs all of this correct? Are you currently taking any medications or would"
+        ],
+        [
+          "user",
+          "Yes."
+        ],
+        [
+          "assistant",
+          "Thank you for"
+        ],
+        [
+          "user",
+          "Yes."
+        ],
+        [
+          "assistant",
+          "Thank you for confirming, Shubham.\n\nAre you currently taking any medications, or would you like to discuss anything specific today? If you need to schedule a follow-up appointment, please let me know."
+        ],
+        [
+          "user",
+          "Can you add the notes regarding blood pressure?"
+        ],
+        [
+          "assistant",
+          "Thank you for your request. Your current notes already mention hypertension and your last blood pressure reading was 140/90. Would you like me to add more specific details or a new note about your blood pressure? If so, please let me know exactly what you would like added.\n\nUnfortunately, I am unable to directly update your medical record, but I can flag this request for a human clinician to review and add the note for you. Would you like me to do that?"
+        ],
+        [
+          "user",
+          "Okay."
+        ],
+        [
+          "assistant",
+          "Thank you, Shubham. I will flag your request for a human clinician to review and update your notes regarding your blood pressure.\n\nIs there anything else I can assist you with today, such as scheduling a follow-up appointment or answering any"
+        ],
+        [
+          "user",
+          "Right."
+        ],
+        [
+          "assistant",
+          "Thank you,"
+        ],
+        [
+          "user",
+          "Thank you. Thank you."
+        ],
+        [
+          "assistant",
+          "You’re very"
+        ]
+      ],
+      "raw": {
+        "type": "end-of-call-report",
+        "sessionId": "cmfpe7xtc001j45hmqmiacbbk",
+        "toPhoneNumber": "Web-Call-1157",
+        "fromPhoneNumber": "Web-Client-1157",
+        "callType": "webcall",
+        "disconnectionReason": "user_ended_call",
+        "direction": "inbound",
+        "createdAt": "2025-09-18T12:34:44.592Z",
+        "endedAt": "2025-09-18T12:36:32.221Z",
+        "transcript": [
+          [
+            "assistant",
+            "Hello this is MedIntake. May I have your Medical ID or full name, please?"
+          ],
+          [
+            "user",
+            "Med one zero zero one."
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "assistant",
+            "Thank you. I have found your record, Shubham Yadav.\n\nJust to confirm:\n- Your recorded allergy is to Penicillin.\n- Your last visit was on June 10, 2025.\n- Notes mention hypertension, with your last blood pressure reading at 140/90.\n\nIs all of this correct? Are you currently taking any medications or would"
+          ],
+          [
+            "user",
+            "Yes."
+          ],
+          [
+            "assistant",
+            "Thank you for"
+          ],
+          [
+            "user",
+            "Yes."
+          ],
+          [
+            "assistant",
+            "Thank you for confirming, Shubham.\n\nAre you currently taking any medications, or would you like to discuss anything specific today? If you need to schedule a follow-up appointment, please let me know."
+          ],
+          [
+            "user",
+            "Can you add the notes regarding blood pressure?"
+          ],
+          [
+            "assistant",
+            "Thank you for your request. Your current notes already mention hypertension and your last blood pressure reading was 140/90. Would you like me to add more specific details or a new note about your blood pressure? If so, please let me know exactly what you would like added.\n\nUnfortunately, I am unable to directly update your medical record, but I can flag this request for a human clinician to review and add the note for you. Would you like me to do that?"
+          ],
+          [
+            "user",
+            "Okay."
+          ],
+          [
+            "assistant",
+            "Thank you, Shubham. I will flag your request for a human clinician to review and update your notes regarding your blood pressure.\n\nIs there anything else I can assist you with today, such as scheduling a follow-up appointment or answering any"
+          ],
+          [
+            "user",
+            "Right."
+          ],
+          [
+            "assistant",
+            "Thank you,"
+          ],
+          [
+            "user",
+            "Thank you. Thank you."
+          ],
+          [
+            "assistant",
+            "You’re very"
+          ]
+        ],
+        "summary": "The call identified Shubham Yadav in MedIntake with an allergy to Penicillin, last visit on June 10, 2025, and a blood pressure of 140/90 noted alongside hypertension. The caller asked to add or update notes about the blood pressure; the assistant explained they cannot directly edit records but will flag the request for a human clinician to review and update. The agent also offered to help with scheduling or other needs.",
+        "isSuccessful": true
+      }
+    },
+    {
+      "time": "2025-09-19T08:24:35.423Z",
+      "type": "function_call",
+      "medicalId": "MED-1001",
+      "result": {
+        "id": "MED-1001",
+        "name": "Shubham yadav",
+        "dob": "1987-03-12",
+        "allergies": [
+          "Penicillin"
+        ],
+        "lastVisit": "2025-06-10",
+        "notes": "Hypertension; last BP 140/90."
+      },
+      "requestBody": {
+        "medicalId": "MED-1001"
+      }
+    },
+    {
+      "time": "2025-09-19T08:26:29.016Z",
+      "type": "end-of-call-report",
+      "medicalId": "unknown",
+      "result": null,
+      "requestBody": {
+        "type": "end-of-call-report",
+        "sessionId": "cmfqkp59h00el45hm88blpyk7",
+        "toPhoneNumber": "Web-Call-1157",
+        "fromPhoneNumber": "Web-Client-1157",
+        "callType": "webcall",
+        "disconnectionReason": "user_ended_call",
+        "direction": "inbound",
+        "createdAt": "2025-09-19T08:23:51.269Z",
+        "endedAt": "2025-09-19T08:26:29.347Z",
+        "transcript": [
+          [
+            "assistant",
+            "Hello this is MediCare. May I have your Medical ID , please?"
+          ],
+          [
+            "user",
+            "Sure."
+          ],
+          [
+            "assistant",
+            "Thank you! Could you please provide your Medical ID? It should be in the format MED-XXXX."
+          ],
+          [
+            "user",
+            "Nine zero zero zero zero one."
+          ],
+          [
+            "assistant",
+            "Thank you for providing your Medical ID. Could you please confirm if your Medical ID is MED-90001? If not, please provide it in the format MED-XXXX."
+          ],
+          [
+            "user",
+            "Med one zero zero one."
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "assistant",
+            "Thank you, I have found your record.\n\nJust to confirm:\n- Your name is Shubham Yadav.\n- You have an"
+          ],
+          [
+            "user",
+            "Yes."
+          ],
+          [
+            "assistant",
+            "Great, thank you for confirming, Shubham.\n\nAccording to your record:\n- You have a documented allergy to Penicillin.\n- Your last visit was on June 10, 2025.\n- The notes mention hypertension, with your last recorded blood pressure being 140/90.\n\nIs there any medication you are currently taking or would like to discuss today? Also, do you need to schedule a follow-up appointment?"
+          ],
+          [
+            "user",
+            "Let's say the follow-up appointment."
+          ],
+          [
+            "assistant",
+            "Thank you for letting me know you’d like to schedule a follow-up appointment.\n\nTo help arrange this, do you have a preferred date or time for your appointment? Or would you like the earliest available slot?"
+          ],
+          [
+            "user",
+            "Like, can you appoint for tomorrow?"
+          ],
+          [
+            "user",
+            "Nine PM?"
+          ],
+          [
+            "assistant",
+            "Thank you for your preference. I will note your request for a follow-up appointment tomorrow at 9 PM.\n\nI will forward this request to our scheduling team, and they will confirm the availability for that time. If there are any issues with the requested slot, someone will reach out to you.\n\nTo summarize:\n- You confirmed your details and allergy to Penicillin.\n- You requested a follow-up appointment for tomorrow at 9 PM.\n\nIs there anything else I can assist you with today?"
+          ],
+          [
+            "user",
+            "Thank you. Thank you for that."
+          ],
+          [
+            "assistant",
+            "You're very welcome, Shubham! I'm glad I could assist you today.\n\nYour follow-up appointment request for tomorrow at 9 PM has been noted. If you have any further questions or need assistance in the future, please feel free to reach out.\n\nHave a great day and take care!"
+          ]
+        ],
+        "summary": "The agent verified the caller’s identity as Shubham Yadav, confirming Medical ID MED-90001 and noting an allergy to Penicillin, with the last visit on June 10, 2025 and a blood pressure of 140/90. The caller requested a follow-up appointment for tomorrow at 9 PM, which the scheduling team will confirm or adjust if the slot is unavailable. No medications were discussed.",
+        "isSuccessful": true
+      },
+      "receivedAt": "2025-09-19T08:26:29.020Z",
+      "event": "end-of-call-report",
+      "summary": "The agent verified the caller’s identity as Shubham Yadav, confirming Medical ID MED-90001 and noting an allergy to Penicillin, with the last visit on June 10, 2025 and a blood pressure of 140/90. The caller requested a follow-up appointment for tomorrow at 9 PM, which the scheduling team will confirm or adjust if the slot is unavailable. No medications were discussed.",
+      "transcript": [
+        [
+          "assistant",
+          "Hello this is MediCare. May I have your Medical ID , please?"
+        ],
+        [
+          "user",
+          "Sure."
+        ],
+        [
+          "assistant",
+          "Thank you! Could you please provide your Medical ID? It should be in the format MED-XXXX."
+        ],
+        [
+          "user",
+          "Nine zero zero zero zero one."
+        ],
+        [
+          "assistant",
+          "Thank you for providing your Medical ID. Could you please confirm if your Medical ID is MED-90001? If not, please provide it in the format MED-XXXX."
+        ],
+        [
+          "user",
+          "Med one zero zero one."
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "assistant",
+          "Thank you, I have found your record.\n\nJust to confirm:\n- Your name is Shubham Yadav.\n- You have an"
+        ],
+        [
+          "user",
+          "Yes."
+        ],
+        [
+          "assistant",
+          "Great, thank you for confirming, Shubham.\n\nAccording to your record:\n- You have a documented allergy to Penicillin.\n- Your last visit was on June 10, 2025.\n- The notes mention hypertension, with your last recorded blood pressure being 140/90.\n\nIs there any medication you are currently taking or would like to discuss today? Also, do you need to schedule a follow-up appointment?"
+        ],
+        [
+          "user",
+          "Let's say the follow-up appointment."
+        ],
+        [
+          "assistant",
+          "Thank you for letting me know you’d like to schedule a follow-up appointment.\n\nTo help arrange this, do you have a preferred date or time for your appointment? Or would you like the earliest available slot?"
+        ],
+        [
+          "user",
+          "Like, can you appoint for tomorrow?"
+        ],
+        [
+          "user",
+          "Nine PM?"
+        ],
+        [
+          "assistant",
+          "Thank you for your preference. I will note your request for a follow-up appointment tomorrow at 9 PM.\n\nI will forward this request to our scheduling team, and they will confirm the availability for that time. If there are any issues with the requested slot, someone will reach out to you.\n\nTo summarize:\n- You confirmed your details and allergy to Penicillin.\n- You requested a follow-up appointment for tomorrow at 9 PM.\n\nIs there anything else I can assist you with today?"
+        ],
+        [
+          "user",
+          "Thank you. Thank you for that."
+        ],
+        [
+          "assistant",
+          "You're very welcome, Shubham! I'm glad I could assist you today.\n\nYour follow-up appointment request for tomorrow at 9 PM has been noted. If you have any further questions or need assistance in the future, please feel free to reach out.\n\nHave a great day and take care!"
+        ]
+      ],
+      "raw": {
+        "type": "end-of-call-report",
+        "sessionId": "cmfqkp59h00el45hm88blpyk7",
+        "toPhoneNumber": "Web-Call-1157",
+        "fromPhoneNumber": "Web-Client-1157",
+        "callType": "webcall",
+        "disconnectionReason": "user_ended_call",
+        "direction": "inbound",
+        "createdAt": "2025-09-19T08:23:51.269Z",
+        "endedAt": "2025-09-19T08:26:29.347Z",
+        "transcript": [
+          [
+            "assistant",
+            "Hello this is MediCare. May I have your Medical ID , please?"
+          ],
+          [
+            "user",
+            "Sure."
+          ],
+          [
+            "assistant",
+            "Thank you! Could you please provide your Medical ID? It should be in the format MED-XXXX."
+          ],
+          [
+            "user",
+            "Nine zero zero zero zero one."
+          ],
+          [
+            "assistant",
+            "Thank you for providing your Medical ID. Could you please confirm if your Medical ID is MED-90001? If not, please provide it in the format MED-XXXX."
+          ],
+          [
+            "user",
+            "Med one zero zero one."
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ],
+          [
+            "assistant",
+            "Thank you, I have found your record.\n\nJust to confirm:\n- Your name is Shubham Yadav.\n- You have an"
+          ],
+          [
+            "user",
+            "Yes."
+          ],
+          [
+            "assistant",
+            "Great, thank you for confirming, Shubham.\n\nAccording to your record:\n- You have a documented allergy to Penicillin.\n- Your last visit was on June 10, 2025.\n- The notes mention hypertension, with your last recorded blood pressure being 140/90.\n\nIs there any medication you are currently taking or would like to discuss today? Also, do you need to schedule a follow-up appointment?"
+          ],
+          [
+            "user",
+            "Let's say the follow-up appointment."
+          ],
+          [
+            "assistant",
+            "Thank you for letting me know you’d like to schedule a follow-up appointment.\n\nTo help arrange this, do you have a preferred date or time for your appointment? Or would you like the earliest available slot?"
+          ],
+          [
+            "user",
+            "Like, can you appoint for tomorrow?"
+          ],
+          [
+            "user",
+            "Nine PM?"
+          ],
+          [
+            "assistant",
+            "Thank you for your preference. I will note your request for a follow-up appointment tomorrow at 9 PM.\n\nI will forward this request to our scheduling team, and they will confirm the availability for that time. If there are any issues with the requested slot, someone will reach out to you.\n\nTo summarize:\n- You confirmed your details and allergy to Penicillin.\n- You requested a follow-up appointment for tomorrow at 9 PM.\n\nIs there anything else I can assist you with today?"
+          ],
+          [
+            "user",
+            "Thank you. Thank you for that."
+          ],
+          [
+            "assistant",
+            "You're very welcome, Shubham! I'm glad I could assist you today.\n\nYour follow-up appointment request for tomorrow at 9 PM has been noted. If you have any further questions or need assistance in the future, please feel free to reach out.\n\nHave a great day and take care!"
+          ]
+        ],
+        "summary": "The agent verified the caller’s identity as Shubham Yadav, confirming Medical ID MED-90001 and noting an allergy to Penicillin, with the last visit on June 10, 2025 and a blood pressure of 140/90. The caller requested a follow-up appointment for tomorrow at 9 PM, which the scheduling team will confirm or adjust if the slot is unavailable. No medications were discussed.",
+        "isSuccessful": true
+      }
+    }
+  ],
+  "followUps": []
+}
