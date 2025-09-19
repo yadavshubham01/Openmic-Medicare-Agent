@@ -164,8 +164,3 @@ It supports **bot management (CRUD)**, **call logging**, **summaries**, and **fo
 3. Commit changes
 4. Push and open a Pull Request
 
----
-
-## 📜 License
-
-MIT © 2025 — Built for OpenMic Agent Flow demo
