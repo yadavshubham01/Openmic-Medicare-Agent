@@ -3,7 +3,6 @@
 An interactive demo application that integrates with **OpenMic** to simulate a medical intake agent.
 It supports **bot management (CRUD)**, **call logging**, **summaries**, and **follow-up scheduling**.
 
----
 
 ## 🚀 Features
 
@@ -35,7 +34,6 @@ It supports **bot management (CRUD)**, **call logging**, **summaries**, and **fo
     * Paginated call logs
     * Modal popups for summaries and transcripts (rendered as chat bubbles)
 
----
 
 ## 🛠️ Tech Stack
 
@@ -45,7 +43,7 @@ It supports **bot management (CRUD)**, **call logging**, **summaries**, and **fo
 * **File-based JSON storage** (for logs + follow-ups)
 * **OpenMic API** for bot operations
 
----
+
 
 ## 📂 Project Structure
 
@@ -77,7 +75,7 @@ It supports **bot management (CRUD)**, **call logging**, **summaries**, and **fo
 
 ```
 
----
+
 
 ## ⚙️ Setup
 
@@ -110,7 +108,7 @@ It supports **bot management (CRUD)**, **call logging**, **summaries**, and **fo
 
    Open [http://localhost:3000](http://localhost:3000)
 
----
+
 
 ## 📑 API Endpoints
 
@@ -141,7 +139,6 @@ It supports **bot management (CRUD)**, **call logging**, **summaries**, and **fo
 
 * `GET` → Fetch stored call logs
 
----
 
 ## 🖼️ UI Demo
 
@@ -149,7 +146,7 @@ It supports **bot management (CRUD)**, **call logging**, **summaries**, and **fo
 * **Logs Page** → View call logs, summaries, and transcripts in modals
 * Transcript is displayed as **conversation chat bubbles**
 
----
+
 
 ## 📝 Future Improvements
 
@@ -158,7 +155,7 @@ It supports **bot management (CRUD)**, **call logging**, **summaries**, and **fo
 * ✅ Search/filter logs by Medical ID or date
 * ✅ Deploy to Vercel with environment secrets
 
----
+
 
 ## 🤝 Contributing
 
